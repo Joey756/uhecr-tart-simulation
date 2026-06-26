@@ -1,4 +1,5 @@
 # UHECR Air Shower Radio Detection — CORSIKA/CoREAS Simulation
+Author: Joel Owusu Boateng Kwakye
 
 Investigating whether [TART](https://github.com/tart-telescope) (operating at 1.575 GHz) can detect radio emission from ultra-high energy cosmic ray (UHECR) air showers. This is a footprint demonstrator — the goal is to characterise the radio signal on the ground, not to estimate detection rates.
 
@@ -75,10 +76,6 @@ export PYTHONPATH=$PYTHONPATH:/path/to/radiotools
 
 Simulations run on `schmalzburg` (Tim Molteno's lab, University of Otago), single-core.
 
-## Open Questions
-
-- Does Wmax = 100 thinning produce noise-dominated electric field traces above 1 GHz?
-- What is the signal footprint at TART's observing frequency?
 
 ## References
 
